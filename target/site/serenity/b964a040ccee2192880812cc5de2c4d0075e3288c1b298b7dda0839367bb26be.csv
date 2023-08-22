@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User curd test","Update user","ERROR","2023-08-07T17:13:59.720+01:00[Europe/London]","0.0","2.69"
+"User curd test","Delete user","FAILURE","2023-08-07T18:46:23.263+01:00[Europe/London]","0.0","0.73"
+"User curd test","Verify user updated successfully","FAILURE","2023-08-07T18:46:24+01:00[Europe/London]","0.0","0.4"
+"User curd test with steps","Create User Data","FAILURE","2023-08-07T18:46:25.534+01:00[Europe/London]","0.0","0.72"
+"User curd test with steps","Update User","FAILURE","2023-08-07T18:46:26.305+01:00[Europe/London]","0.0","0.36"
+"User curd test with steps","Delete User Date","FAILURE","2023-08-07T18:46:26.667+01:00[Europe/London]","0.0","0.35"

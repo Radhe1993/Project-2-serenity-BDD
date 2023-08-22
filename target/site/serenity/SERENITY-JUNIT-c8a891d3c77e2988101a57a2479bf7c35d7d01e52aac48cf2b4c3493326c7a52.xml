@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.gorest.userinfo.UserCurdTest" skipped="0" tests="1" time="2.69" timestamp="2023-08-07T17:13:59.720+01:00[Europe/London]"><testcase classname="com.gorest.userinfo.UserCurdTest" name="Update user"><error message="You must supply the same number of keys as values." type="java.lang.IllegalArgumentException">You must supply the same number of keys as values.</error><system-err>You must supply the same number of keys as values.&#13;
+io.restassured.internal.MapCreator.createMapFromObjects(MapCreator.groovy:41)&#13;
+io.restassured.internal.MapCreator.createMapFromParams(MapCreator.groovy:30)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationHeaderConfigurations.headers(RequestSpecificationHeaderConfigurations.java:45)&#13;
+net.serenitybdd.rest.decorators.request.RequestSpecificationDecorated.headers(RequestSpecificationDecorated.java:27)&#13;
+com.gorest.userinfo.UserCurdTest.updateUser(UserCurdTest.java:65)&#13;
+</system-err></testcase></testsuite>

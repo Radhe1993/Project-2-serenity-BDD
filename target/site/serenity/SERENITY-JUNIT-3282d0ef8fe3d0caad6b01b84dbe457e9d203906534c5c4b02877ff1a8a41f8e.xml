@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing different request on the user application" skipped="0" tests="3" time="4.49" timestamp="2023-08-22T21:25:13.699+01:00[Europe/London]"><testcase name="Check if the student application can be accessed by users"/><testcase name="Create a new user &amp; verify if the user is added"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;401&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.userinfo.UserSteps.createUser(UserSteps.java:39)&#13;
+com.gorest.runner.UserStepDefination.iCreateANewUserByProvidingTheInformationNameEmailGenderStatus(UserStepDefination.java:29)&#13;
+✽.When I create a new user by providing the information name "Mr. Karunanidhi Dubashi" email "karunanidhi_dubashi_mr2@conn.example" gender "female" status "active"(user.feature:8)&#13;
+</system-err></testcase></testsuite>
